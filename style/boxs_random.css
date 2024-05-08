@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+.wrapper {
+    background-color: #3178be;
+}
+
 .movile{
     margin: 15px auto;
     width: 400px;
-    height: 800px;
+    height: 900px;
     background-color: #333;
     border-radius: 25px;
     display: flex;
@@ -29,13 +34,13 @@
 }
 .data{
     height: 50px;
-    margin-bottom: 15px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: rgb(75, 190, 239);
     text-align: center;
     line-height: 50px;
     padding: 0px 20px;
     animation: popupdata .3s ease;
+    cursor: pointer;
 }
 .data.data:nth-child(2n){
     background-color:rgba(90, 243, 146, 0.803);
