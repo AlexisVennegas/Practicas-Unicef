@@ -35,7 +35,7 @@
     text-align: center;
     line-height: 50px;
     padding: 0px 20px;
-    /* grid two co */
+    animation: popupdata .3s ease;
 }
 .data.data:nth-child(2n){
     background-color:rgba(90, 243, 146, 0.803);
@@ -57,4 +57,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px 0 ;
+}
+
+@keyframes popupdata {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
